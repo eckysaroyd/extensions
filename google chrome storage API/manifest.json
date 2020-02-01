@@ -13,5 +13,5 @@
     "default_icon": "./images/16.png",
     "default_title": "ecky_extension"
   },
-  "permissions": ["tabs"]
+  "permissions": ["tabs", "storage"]
 }
