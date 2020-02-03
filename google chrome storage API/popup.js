@@ -12,6 +12,8 @@ $(function() {
     var username = $("#alias").val();
 
     /**how to store data in chrome**/
-    chrome.storage.sync.set({ username: username }, function() {});
+    chrome.storage.sync.set({"username":username}, function () {
+      close();
+    });
   });
 });
